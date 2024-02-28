@@ -1,18 +1,4 @@
-.header {
-    overflow: hidden;
-    background-color: #d9cdc7;
-    padding: 20px 10px;
-  }
-  .header a {
-    float: left;
-    color: black;
-    text-align: center;
-    padding: 12px;
-    text-decoration: none;
-    font-size: 40px; 
-    line-height: 50px;
-    border-radius: 4px;
-  }
+
 
 /* animation for image */
 .container {
@@ -32,15 +18,9 @@
 }
 /* End Animation */
 
-  .container img {
-    width: 948px;
-    height: 720px;
-    margin-left: auto;
-    margin-right: auto;
-    object-fit: contain;
-    display: block;
 
-  }
+
+
   .header a:hover {
     background-color: #ddd;
     color: black;
@@ -57,10 +37,7 @@
   }
   
 
-@font-face {
-    font-family: headerFont;
-    src: url("JustForFun-Regular.otf")
-}
+
 
 @font-face {
     font-family: header-rightFont;
@@ -72,13 +49,38 @@
     text-decoration: none;
 }
 
-.content {
-  margin-top: 400px;
-  background-color: blanchedalmond;
+
+/* Parallax Scrolling Section */
+.parallax {
+  background-image: url("bg.png");
+
+/* Full height here */
+height: 1000px;
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 }
 
+/*
+.section {
+  padding: 50px 0;
+}
+*/
+.parallax h1 {
+  color: white;
+  text-align: center;
+  padding-top: 800px;
+  font-size: 15em;
+  font-family: sampleFont;
+}
+
+
+/* text for sample balloon name */
 .content h1 {
-  padding: 70px;
+
   text-align: center;
   font-size: 300px;
   font-family: nameFont;
@@ -89,8 +91,7 @@
   src: url("SunglasstypepersonaluseBold-Ea7El.otf")
 }
 
-
-body {
-  background-color: aliceblue;
-  margin: 0;
+@font-face {
+  font-family: sampleFont;
+  src: url("StiepaserifRegular-rg1EA.otf")
 }
